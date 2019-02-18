@@ -7,4 +7,4 @@ module.exports=[{title:"Volvo Trucks",music:"6FLwmdmW77N1Pxb1aWsZmO",video:"M7FI
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=require("./quiz-data.service"),t=require("./helpers"),i=location.search.split("=")[1]||1,n=document.querySelector(".btn-response"),r=document.querySelector(".quiz-links-list"),o=(0,e.getAllQuizData)(),u=(0,t.getQuizLinks)(o);u.forEach(function(e){r.appendChild(e)});var c=(0,e.getQuizData)(i);document.querySelector(".music").appendChild((0,t.getIframeContent)(c.music)),n.addEventListener("click",function(e){e.target.style.display="none",document.querySelector(".video").appendChild((0,t.getIframeContent)(c.video)),document.querySelector(".video h1").appendChild((0,t.getTitleContent)(c.title))});
 },{"./quiz-data.service":"wLEy","./helpers":"lTk1"}]},{},["Focm"], null)
-//# sourceMappingURL=/app.6bfc9b2b.map
+//# sourceMappingURL=app.6bfc9b2b.map
