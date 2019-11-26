@@ -1,0 +1,9 @@
+{
+    "name": "PP Prototype",
+    "short_name": "PP",
+    "lang": "en-US",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#004833",
+    "background_color": "#004833"
+}
